@@ -1,0 +1,56 @@
+/*============ TEXT =============*/
+.text-roboto{
+	font-family: roboto 'serif';
+}
+
+.fw-900{
+	font-weight: 900;
+}
+.fw-700{
+	font-weight: 700;
+}
+.fw-400{
+	font-weight: 400;
+}
+.fw-300{
+	font-weight: 300;
+}
+.fw-200{
+	font-weight: 200;
+}
+.fw-100{
+	font-weight: 100;
+}
+.bold{
+	font-weight: bold;
+}
+
+/*font size*/
+.fs-1em{
+	font-size: 1em;
+}
+
+.fs-1{
+	font-size: 10px;
+}
+
+.fs-2{
+	font-size: 20px;
+}
+
+.fs-3{
+	font-size: 30px;
+}
+
+.fs-4{
+	font-size: 40px;
+}
+
+.fs-5{
+	font-size: 50px;
+}
+/*font size*/
+/*============ TEXT =============*/
+.color-c{
+	color: #58595b;
+}
