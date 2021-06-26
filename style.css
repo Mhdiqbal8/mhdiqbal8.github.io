@@ -101,8 +101,15 @@ button:focus{
 }
 /*POJECT*/
 
-
-
+/*cartificates*/
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,.4);
+	border: 0;
+	background: #aaa;
+ }
 /*FOOTER*/
 .footer .footer-link a{
 	text-decoration: underline;
