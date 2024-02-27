@@ -38,6 +38,32 @@
         </a>
     </div>
 </div>
+
+    <card>
+      <p>
+         Alias /sirsak "/xampp//htdocs/sirsak"
+    <Directory "/xampp//htdocs/sirsak">
+        AllowOverride AuthConfig
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+
+    Alias /sismadak "/xampp//htdocs/sirsak"
+    <Directory "/xampp//htdocs/sirsak">
+        AllowOverride AuthConfig
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+    
+    AliasMatch (?i)^/sirsak(.*) /sirsak$1
+    AliasMatch (?i)^/sismadak(.*) /sirsak$1
+    AliasMatch (?i)^/simrs(.*) /sirsak$1
+    AliasMatch (?i)^/emr(.*) /sirsak$1
+    AliasMatch (?i)^/rme(.*) /sirsak$1
+      </p>
+    </card>
 <div class="jumbotron bg-primary">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <!-- <div class="container"> -->
